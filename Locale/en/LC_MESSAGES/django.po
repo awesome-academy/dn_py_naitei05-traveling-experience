@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-11 16:14+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\post\models.py:12
+msgid "Enter date of birth"
+msgstr "Date of birth"
+
+#: .\post\models.py:13
+msgid "Enter user's address"
+msgstr "User's address"
+
+#: .\post\models.py:14
+msgid "Enter user's phone"
+msgstr "User's phone"
+
+#: .\post\models.py:23
+msgid "Title for this post"
+msgstr "Title"
+
+#: .\post\models.py:24
+msgid "Enter content of the book"
+msgstr "Content"
+
+#: .\post\models.py:26
+msgid "Rate of this post"
+msgstr "Rate"
+
+#: .\post\models.py:27
+msgid "Status of this post (Private or Public)"
+msgstr "Status"
+
+#: .\post\models.py:43
+msgid "Point of this post"
+msgstr "Point"
+
+#: .\post\models.py:53
+msgid "Enter content for this tag"
+msgstr "Tag content"
