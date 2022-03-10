@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 16:14+0700\n"
+"POT-Creation-Date: 2022-03-15 08:38+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,38 +17,69 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: .\post\models.py:12
+
+#: .\post\models.py:9
 msgid "Enter date of birth"
 msgstr "Date of birth"
 
-#: .\post\models.py:13
+#: .\post\models.py:10
 msgid "Enter user's address"
 msgstr "User's address"
 
-#: .\post\models.py:14
+#: .\post\models.py:11
 msgid "Enter user's phone"
 msgstr "User's phone"
 
-#: .\post\models.py:23
+#: .\post\models.py:20
 msgid "Title for this post"
 msgstr "Title"
 
-#: .\post\models.py:24
+#: .\post\models.py:21
 msgid "Enter content of the book"
 msgstr "Content"
 
-#: .\post\models.py:26
+#: .\post\models.py:23
 msgid "Rate of this post"
 msgstr "Rate"
 
-#: .\post\models.py:27
+#: .\post\models.py:24
 msgid "Status of this post (Private or Public)"
 msgstr "Status"
 
-#: .\post\models.py:43
+#: .\post\models.py:40
 msgid "Point of this post"
 msgstr "Point"
 
-#: .\post\models.py:53
+#: .\post\models.py:50
 msgid "Enter content for this tag"
 msgstr "Tag content"
+
+#: .\post\templates\base_generic.html:6
+#, fuzzy
+#| msgid "Welcome to Traveling Experience Page"
+msgid "Traveling experience"
+msgstr "Welcome to Traveling Experience Page"
+
+#: .\post\templates\index.html:4
+msgid "Home page"
+msgstr "Home page"
+
+#: .\post\templates\index.html:5
+msgid "Welcome to Traveling Experience Page"
+msgstr "Welcome to Traveling Experience Page"
+
+#: .\post\templates\registration\login.html:9
+msgid "Please login to see this page."
+msgstr "Please login to see this page."
+
+#: .\post\templates\registration\login.html:17
+msgid "Sign In"
+msgstr "Sign In"
+
+#: .\post\templates\registration\login.html:39
+msgid "Lost password?"
+msgstr "Lost password?"
+
+#: .\post\views.py:6
+msgid "Your username and password didn't match. Please try again."
+msgstr "Your username and password didn't match. Please try again."

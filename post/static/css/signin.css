@@ -1,0 +1,93 @@
+html,
+body {
+    background-image: url('../images/background.jpg');
+}
+
+.login-btn {
+    width: 100px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 8.5rem;
+    margin-bottom: 10px;
+}
+
+.input-group-fit {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card-login {
+    height: 300px;
+    margin-top: 130px;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: #3ebcc5 !important;
+    border-radius: 5px;
+}
+
+.card-header h3 {
+    color: white;
+    text-align: center;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: black;
+}
+
+.links a {
+    margin-left: 4px;
+    color: whitesmoke
+}
+
+.username-text {
+    margin-left: 30px;
+}
+
+.password-text {
+    margin-left: 35px;
+}
+
+.username-tag {
+    margin-top: 5px;
+}
+
+.password-tag {
+    margin-top: 5px;
+}
+
+.lost-password-link {
+    margin-left: 130px;
+}
+
+.noti {
+    margin-top: 15px;
+    text-align: center;
+}
