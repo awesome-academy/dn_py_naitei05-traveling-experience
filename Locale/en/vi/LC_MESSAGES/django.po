@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-15 08:38+0700\n"
+"POT-Creation-Date: 2022-03-16 09:51+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,43 +17,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\post\models.py:9
+#: .\post\models.py:10
 msgid "Enter date of birth"
 msgstr "Nhập ngày sinh"
 
-#: .\post\models.py:10
+#: .\post\models.py:11
 msgid "Enter user's address"
 msgstr "Nhập địa chỉ"
 
-#: .\post\models.py:11
+#: .\post\models.py:12
 msgid "Enter user's phone"
 msgstr "Nhập số điện thoại"
 
-#: .\post\models.py:20
+#: .\post\models.py:25
 msgid "Title for this post"
 msgstr "Tiêu đề bài đăng"
 
-#: .\post\models.py:21
+#: .\post\models.py:26
 msgid "Enter content of the book"
 msgstr "Nội dung bài đăng"
 
-#: .\post\models.py:23
+#: .\post\models.py:28
 msgid "Rate of this post"
 msgstr "Đánh giá bài đăng"
 
-#: .\post\models.py:24
+#: .\post\models.py:29
 msgid "Status of this post (Private or Public)"
 msgstr "Trạng thái bài đăng (Riêng tư/ Công khai)"
 
-#: .\post\models.py:40
+#: .\post\models.py:45
 msgid "Point of this post"
 msgstr "Điểm cho bài đăng"
 
-#: .\post\models.py:50
+#: .\post\models.py:55
 msgid "Enter content for this tag"
 msgstr "Nhập nội dung cho tag"
 
-#: .\post\templates\base_generic.html:6
+#: .\post\templates\base_generic.html:5
 #, fuzzy
 #| msgid "Welcome to Traveling Experience Page"
 msgid "Traveling experience"
@@ -67,6 +67,40 @@ msgstr "Trang chủ"
 msgid "Welcome to Traveling Experience Page"
 msgstr "Chào mừng bạn đến với trang web chia sẻ kinh nghiệm du lịch"
 
+#: .\post\templates\profile\profile_detail.html:11
+msgid "User-Profile-Image"
+msgstr "Ảnh đại diện"
+
+#: .\post\templates\profile\profile_detail.html:18
+msgid "Information"
+msgstr "Thông tin"
+
+#: .\post\templates\profile\profile_detail.html:21
+#, fuzzy
+#| msgid "Enter date of birth"
+msgid "Date of Birth"
+msgstr "Nhập ngày sinh"
+
+#: .\post\templates\profile\profile_detail.html:25
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: .\post\templates\profile\profile_detail.html:31
+msgid "Joining Date"
+msgstr "Ngày tham gia"
+
+#: .\post\templates\profile\profile_detail.html:35
+msgid "Contacts"
+msgstr "Thông tin liên hệ"
+
+#: .\post\templates\profile\profile_detail.html:38
+msgid "Email"
+msgstr "Email"
+
+#: .\post\templates\profile\profile_detail.html:42
+msgid "Phone"
+msgstr "Số điện thoại"
+
 #: .\post\templates\registration\login.html:9
 msgid "Please login to see this page."
 msgstr "Vui lòng đăng nhập để xem trang."
@@ -79,7 +113,7 @@ msgstr "Đăng nhập"
 msgid "Lost password?"
 msgstr "Quên mật khẩu?"
 
-#: .\post\views.py:6
+#: .\post\views.py:9
 msgid "Your username and password didn't match. Please try again."
 msgstr "Tên đăng nhập và mật khẩu không khớp. Vui lòng thử lại."
 
