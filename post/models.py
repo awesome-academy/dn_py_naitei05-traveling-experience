@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from django.utils.translation import ugettext as _
 from django.contrib.auth.models import User
 from . import constants
@@ -10,10 +11,14 @@ class Profile(User):
     address = models.TextField(max_length=1000, help_text=_("Enter user's address"))
     phone = models.CharField(max_length=10, help_text=_("Enter user's phone"))
     role = models.IntegerField(choices=constants.ROLE_CHOICES, default=1)
+    avatar = models.ImageField(upload_to ='uploads/', default='uploads/avatar-default-icon.png')
     is_blocked = models.BooleanField(default=False)
 
+    def get_absolute_url(self):
+        return reverse('profile-detail', args=[str(self.id)])
+
     def __str__(self):
-        return self.first_name
+        return self.username
 
 class Post(models.Model):
     user = models.ForeignKey('Profile', on_delete=models.PROTECT)
