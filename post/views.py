@@ -10,10 +10,21 @@ def index(request):
     return render(request, 'index.html')
 
 @login_required
-def ProfileDetail(request): 
+def profile_detail(request): 
     user = Profile.objects.filter(username=request.user).first
+
     context = {
         'user': user,
     }
 
     return render(request, 'profile/profile_detail.html', context)
+
+@login_required
+def user_management(request): 
+    users = Profile.objects.all()
+
+    context = {
+        'users': users,
+    }
+
+    return render(request, 'admin/user_management.html', context)
