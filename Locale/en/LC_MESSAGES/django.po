@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-16 09:51+0700\n"
+"POT-Creation-Date: 2022-03-16 16:29+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,26 @@ msgstr "Point"
 #: .\post\models.py:55
 msgid "Enter content for this tag"
 msgstr "Tag content"
+
+#: .\post\templates\admin\user_management.html:12
+msgid "User's Name"
+msgstr "User's Name"
+
+#: .\post\templates\admin\user_management.html:13
+msgid "Status"
+msgstr "Status"
+
+#: .\post\templates\admin\user_management.html:14
+msgid "Action"
+msgstr "Action"
+
+#: .\post\templates\admin\user_management.html:41
+msgid "Inactive"
+msgstr "Inactive"
+
+#: .\post\templates\admin\user_management.html:43
+msgid "Active"
+msgstr "Active"
 
 #: .\post\templates\base_generic.html:5
 #, fuzzy
