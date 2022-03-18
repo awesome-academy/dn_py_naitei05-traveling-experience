@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load i18n %}
+
 <head>
     <title>{% translate "Traveling experience" %}</title>
     <meta charset="utf-8">
@@ -11,10 +12,14 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/signin.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/profile.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/user-management.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
 </head>
 
 <body>
     {% block sidebar %}{% endblock %}
+    {% include "header.html" %}
     {% block content %}{% endblock %}
+    {% include "footer.html" %}
 </body>
+
 </html>
