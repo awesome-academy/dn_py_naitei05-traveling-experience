@@ -1,0 +1,24 @@
+{% extends "base_generic.html" %}
+{% load i18n %}
+{% block content %}
+<div class="container">
+    <form method="POST" action="{% url 'create-post' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>{% translate "Create post" %}</h1>
+                {% for field in form %}
+                    <div class="form-group mt-2">
+                        {{ field.label_tag }} {{ field }}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="form-group mb-5 mt-3">
+            <button type="submit" class="btn btn-success" name="submit">
+                {% translate "Create" %}
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}
