@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-16 16:29+0700\n"
+"POT-Creation-Date: 2022-03-18 15:08+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,51 +74,116 @@ msgstr "Inactive"
 msgid "Active"
 msgstr "Active"
 
-#: .\post\templates\base_generic.html:5
+#: .\post\templates\base_generic.html:6
 #, fuzzy
 #| msgid "Welcome to Traveling Experience Page"
 msgid "Traveling experience"
 msgstr "Welcome to Traveling Experience Page"
 
-#: .\post\templates\index.html:4
-msgid "Home page"
+#: .\post\templates\base_generic.html:30
+#, fuzzy
+#| msgid "Home page"
+msgid "Home"
 msgstr "Home page"
 
-#: .\post\templates\index.html:5
-msgid "Welcome to Traveling Experience Page"
-msgstr "Welcome to Traveling Experience Page"
+#: .\post\templates\base_generic.html:34
+msgid "Most viewed posts"
+msgstr "Most viewed posts"
 
-#: .\post\templates\profile\profile_detail.html:11
-msgid "User-Profile-Image"
-msgstr "User-Profile-Image"
+#: .\post\templates\base_generic.html:38
+msgid "Authors"
+msgstr "Authors"
 
-#: .\post\templates\profile\profile_detail.html:18
+#: .\post\templates\base_generic.html:42 .\post\templates\index.html:18
+msgid "Community"
+msgstr ""
+
+#: .\post\templates\base_generic.html:58
+msgid "Services"
+msgstr "Services"
+
+#: .\post\templates\base_generic.html:60
+msgid "Development"
+msgstr "Development"
+
+#: .\post\templates\base_generic.html:61
+msgid "Hosting"
+msgstr "Hosting"
+
+#: .\post\templates\base_generic.html:65
+#: .\post\templates\profile\profile_detail.html:19
 msgid "Information"
 msgstr "Information"
 
-#: .\post\templates\profile\profile_detail.html:21
+#: .\post\templates\base_generic.html:67
+msgid "About"
+msgstr "About"
+
+#: .\post\templates\base_generic.html:68
+msgid "Team"
+msgstr "Team"
+
+#: .\post\templates\base_generic.html:72
+msgid "License"
+msgstr "License"
+
+#: .\post\templates\index.html:10
+msgid "Posts"
+msgstr "Posts"
+
+#: .\post\templates\index.html:14
+msgid "Search"
+msgstr "Search"
+
+#: .\post\templates\index.html:27
+msgid "Slogan: Sharing and Connect"
+msgstr "Slogan: Sharing and Connect"
+
+#: .\post\templates\index.html:28 .\post\templates\index.html:42
+#: .\post\templates\index.html:55
+msgid "Different"
+msgstr "Different"
+
+#: .\post\templates\index.html:30 .\post\templates\index.html:43
+#: .\post\templates\index.html:57
+msgid "Description goes here TT_TT."
+msgstr "Description goes here TT_TT."
+
+#: .\post\templates\index.html:42
+msgid "Common values"
+msgstr "Common values"
+
+#: .\post\templates\index.html:55
+msgid "Professional management"
+msgstr "Professional management"
+
+#: .\post\templates\profile\profile_detail.html:12
+msgid "User-Profile-Image"
+msgstr "User-Profile-Image"
+
+#: .\post\templates\profile\profile_detail.html:22
 #, fuzzy
 #| msgid "Enter date of birth"
 msgid "Date of Birth"
 msgstr "Date of birth"
 
-#: .\post\templates\profile\profile_detail.html:25
+#: .\post\templates\profile\profile_detail.html:26
 msgid "Address"
 msgstr "Address"
 
-#: .\post\templates\profile\profile_detail.html:31
+#: .\post\templates\profile\profile_detail.html:32
 msgid "Joining Date"
 msgstr "Joining Date"
 
-#: .\post\templates\profile\profile_detail.html:35
+#: .\post\templates\profile\profile_detail.html:36
 msgid "Contacts"
 msgstr "Contacts"
 
-#: .\post\templates\profile\profile_detail.html:38
+#: .\post\templates\profile\profile_detail.html:39
 msgid "Email"
 msgstr "Email"
 
-#: .\post\templates\profile\profile_detail.html:42
+#: .\post\templates\profile\profile_detail.html:43
 msgid "Phone"
 msgstr "Phone"
 
@@ -137,3 +202,6 @@ msgstr "Lost password?"
 #: .\post\views.py:9
 msgid "Your username and password didn't match. Please try again."
 msgstr "Your username and password didn't match. Please try again."
+
+#~ msgid "Welcome to Traveling Experience Page"
+#~ msgstr "Welcome to Traveling Experience Page"

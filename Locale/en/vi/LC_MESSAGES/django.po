@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-16 16:29+0700\n"
+"POT-Creation-Date: 2022-03-18 15:08+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,51 +73,116 @@ msgstr "Không hoạt động"
 msgid "Active"
 msgstr "Hoạt động"
 
-#: .\post\templates\base_generic.html:5
+#: .\post\templates\base_generic.html:6
 #, fuzzy
 #| msgid "Welcome to Traveling Experience Page"
 msgid "Traveling experience"
 msgstr "Chào mừng bạn đến với trang web chia sẻ kinh nghiệm du lịch"
 
-#: .\post\templates\index.html:4
-msgid "Home page"
+#: .\post\templates\base_generic.html:30
+#, fuzzy
+#| msgid "Home page"
+msgid "Home"
 msgstr "Trang chủ"
 
-#: .\post\templates\index.html:5
-msgid "Welcome to Traveling Experience Page"
-msgstr "Chào mừng bạn đến với trang web chia sẻ kinh nghiệm du lịch"
+#: .\post\templates\base_generic.html:34
+msgid "Most viewed posts"
+msgstr "Bài viết được xem nhiều"
 
-#: .\post\templates\profile\profile_detail.html:11
-msgid "User-Profile-Image"
-msgstr "Ảnh đại diện"
+#: .\post\templates\base_generic.html:38
+msgid "Authors"
+msgstr "Tác giả"
 
-#: .\post\templates\profile\profile_detail.html:18
+#: .\post\templates\base_generic.html:42 .\post\templates\index.html:18
+msgid "Community"
+msgstr " Cộng đồng"
+
+#: .\post\templates\base_generic.html:58
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: .\post\templates\base_generic.html:60
+msgid "Development"
+msgstr "Phát triển"
+
+#: .\post\templates\base_generic.html:61
+msgid "Hosting"
+msgstr "Hosting"
+
+#: .\post\templates\base_generic.html:65
+#: .\post\templates\profile\profile_detail.html:19
 msgid "Information"
 msgstr "Thông tin"
 
-#: .\post\templates\profile\profile_detail.html:21
+#: .\post\templates\base_generic.html:67
+msgid "About"
+msgstr "về trang web"
+
+#: .\post\templates\base_generic.html:68
+msgid "Team"
+msgstr "Đội ngũ"
+
+#: .\post\templates\base_generic.html:72
+msgid "License"
+msgstr "Bản quyền"
+
+#: .\post\templates\index.html:10
+msgid "Posts"
+msgstr "Bài đăng"
+
+#: .\post\templates\index.html:14
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: .\post\templates\index.html:27
+msgid "Slogan: Sharing and Connect"
+msgstr "Khẩu hiệu: Sharing and Connect"
+
+#: .\post\templates\index.html:28 .\post\templates\index.html:42
+#: .\post\templates\index.html:55
+msgid "Different"
+msgstr "Khác biệt"
+
+#: .\post\templates\index.html:30 .\post\templates\index.html:43
+#: .\post\templates\index.html:57
+msgid "Description goes here TT_TT."
+msgstr "Description goes here TT_TT."
+
+#: .\post\templates\index.html:42
+msgid "Common values"
+msgstr "Giá trị chung"
+
+#: .\post\templates\index.html:55
+msgid "Professional management"
+msgstr "Quản lý chuyên nghiệp"
+
+#: .\post\templates\profile\profile_detail.html:12
+msgid "User-Profile-Image"
+msgstr "Ảnh đại diện"
+
+#: .\post\templates\profile\profile_detail.html:22
 #, fuzzy
 #| msgid "Enter date of birth"
 msgid "Date of Birth"
 msgstr "Nhập ngày sinh"
 
-#: .\post\templates\profile\profile_detail.html:25
+#: .\post\templates\profile\profile_detail.html:26
 msgid "Address"
 msgstr "Địa chỉ"
 
-#: .\post\templates\profile\profile_detail.html:31
+#: .\post\templates\profile\profile_detail.html:32
 msgid "Joining Date"
 msgstr "Ngày tham gia"
 
-#: .\post\templates\profile\profile_detail.html:35
+#: .\post\templates\profile\profile_detail.html:36
 msgid "Contacts"
 msgstr "Thông tin liên hệ"
 
-#: .\post\templates\profile\profile_detail.html:38
+#: .\post\templates\profile\profile_detail.html:39
 msgid "Email"
 msgstr "Email"
 
-#: .\post\templates\profile\profile_detail.html:42
+#: .\post\templates\profile\profile_detail.html:43
 msgid "Phone"
 msgstr "Số điện thoại"
 
@@ -136,6 +201,9 @@ msgstr "Quên mật khẩu?"
 #: .\post\views.py:9
 msgid "Your username and password didn't match. Please try again."
 msgstr "Tên đăng nhập và mật khẩu không khớp. Vui lòng thử lại."
+
+#~ msgid "Welcome to Traveling Experience Page"
+#~ msgstr "Chào mừng bạn đến với trang web chia sẻ kinh nghiệm du lịch"
 
 #~ msgid "Unique ID for this post"
 #~ msgstr "ID cho bài đăng"

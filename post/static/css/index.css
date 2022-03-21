@@ -1,0 +1,35 @@
+.ms-25 {
+    margin-left: 25%;
+}
+
+.footer-basic {
+    margin-top: 20px;
+}
+
+.header-height {
+    height: 125px;
+}
+
+.navbar-text {
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+.services {
+    padding-left: 100px
+}
+
+.ul-footer {
+    text-align:left; 
+    padding-left: 90px; 
+    font-size: 1rem;
+}
+
+.ul-footer-2 {
+    text-align:left; 
+    font-size: 1rem;
+}
+
+.index-background {
+    background: white;
+}

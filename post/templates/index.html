@@ -1,6 +1,67 @@
 {% extends "base_generic.html" %}
 {% load i18n %}
 {% block content %}
-  <h1 class="text-white">{% translate "Home page" %}</h1>
-  <p class="text-white">{% translate "Welcome to Traveling Experience Page" %}</p>
+    <body class="index-background ">
+        <main class="mb-4">
+            <div class="container marketing">
+                <div class="row">
+                    {% load static %}
+                    <div class="col-lg-4">
+                        <img class="ms-25" src="{% static 'images/index-image-1.png' %}" width="50%" height="50%" />
+                        <h2 class="text-center mt-2">{% translate "Posts" %}</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="ms-25" src="{% static 'images/index-image-2.jpg' %}" width="50%" height="50%" />
+                        <h2 class="text-center mt-2">{% translate "Search" %}</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="ms-25" src="{% static 'images/index-image-3.jpg' %}" width="50%" height="50%" />
+                        <h2 class="text-center mt-2">{% translate "Community" %}</h2>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+                </hr>
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">{% translate "Slogan: Sharing and Connect" %}<br />
+                            <span class="text-muted">{% translate "Different" %}</span>
+                        </h2>
+                        <p class="lead">{% translate "Description goes here TT_TT." %}</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="{% static 'images/Plane.png' %}" width="90%" alt="">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+                </hr>
+
+                 <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">{% translate "Common values" %}<br/> <span class="text-muted">{% translate "Different" %}</span></h2>
+                        <p class="lead">{% translate "Description goes here TT_TT." %}</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="{% static 'images/camera.jpg' %}" width="90%" alt="">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+                </hr>
+
+                <div class="row featurette mb-5">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">{% translate "Professional management" %}<br /> <span class="text-muted">{% translate "Different" %}</span>
+                        </h2>
+                        <p class="lead">{% translate "Description goes here TT_TT." %}</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="{% static 'images/travel.jpg' %}" width="90%" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
 {% endblock %}
