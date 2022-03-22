@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-18 15:08+0700\n"
+"POT-Creation-Date: 2022-03-22 15:21+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,110 +79,118 @@ msgstr "Hoạt động"
 msgid "Traveling experience"
 msgstr "Chào mừng bạn đến với trang web chia sẻ kinh nghiệm du lịch"
 
-#: .\post\templates\base_generic.html:30
+#: .\post\templates\footer.html:6
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: .\post\templates\footer.html:8
+msgid "Development"
+msgstr "Phát triển"
+
+#: .\post\templates\footer.html:9
+msgid "Hosting"
+msgstr "Hosting"
+
+#: .\post\templates\footer.html:13
+#: .\post\templates\profile\profile_detail.html:18
+msgid "Information"
+msgstr "Thông tin"
+
+#: .\post\templates\footer.html:15
+msgid "About"
+msgstr "về trang web"
+
+#: .\post\templates\footer.html:16
+msgid "Team"
+msgstr "Đội ngũ"
+
+#: .\post\templates\footer.html:20
+msgid "License"
+msgstr "Bản quyền"
+
+#: .\post\templates\header.html:10
 #, fuzzy
 #| msgid "Home page"
 msgid "Home"
 msgstr "Trang chủ"
 
-#: .\post\templates\base_generic.html:34
+#: .\post\templates\header.html:13
 msgid "Most viewed posts"
 msgstr "Bài viết được xem nhiều"
 
-#: .\post\templates\base_generic.html:38
+#: .\post\templates\header.html:16
 msgid "Authors"
 msgstr "Tác giả"
 
-#: .\post\templates\base_generic.html:42 .\post\templates\index.html:18
+#: .\post\templates\header.html:19 .\post\templates\index.html:19
 msgid "Community"
 msgstr " Cộng đồng"
 
-#: .\post\templates\base_generic.html:58
-msgid "Services"
-msgstr "Dịch vụ"
-
-#: .\post\templates\base_generic.html:60
-msgid "Development"
-msgstr "Phát triển"
-
-#: .\post\templates\base_generic.html:61
-msgid "Hosting"
-msgstr "Hosting"
-
-#: .\post\templates\base_generic.html:65
-#: .\post\templates\profile\profile_detail.html:19
-msgid "Information"
-msgstr "Thông tin"
-
-#: .\post\templates\base_generic.html:67
-msgid "About"
-msgstr "về trang web"
-
-#: .\post\templates\base_generic.html:68
-msgid "Team"
-msgstr "Đội ngũ"
-
-#: .\post\templates\base_generic.html:72
-msgid "License"
-msgstr "Bản quyền"
-
-#: .\post\templates\index.html:10
+#: .\post\templates\index.html:11
 msgid "Posts"
 msgstr "Bài đăng"
 
-#: .\post\templates\index.html:14
+#: .\post\templates\index.html:15
 msgid "Search"
 msgstr "Tìm kiếm"
 
-#: .\post\templates\index.html:27
+#: .\post\templates\index.html:28
 msgid "Slogan: Sharing and Connect"
 msgstr "Khẩu hiệu: Sharing and Connect"
 
-#: .\post\templates\index.html:28 .\post\templates\index.html:42
-#: .\post\templates\index.html:55
+#: .\post\templates\index.html:29 .\post\templates\index.html:43
+#: .\post\templates\index.html:56
 msgid "Different"
 msgstr "Khác biệt"
 
-#: .\post\templates\index.html:30 .\post\templates\index.html:43
-#: .\post\templates\index.html:57
+#: .\post\templates\index.html:31 .\post\templates\index.html:44
+#: .\post\templates\index.html:58
 msgid "Description goes here TT_TT."
 msgstr "Description goes here TT_TT."
 
-#: .\post\templates\index.html:42
+#: .\post\templates\index.html:43
 msgid "Common values"
 msgstr "Giá trị chung"
 
-#: .\post\templates\index.html:55
+#: .\post\templates\index.html:56
 msgid "Professional management"
 msgstr "Quản lý chuyên nghiệp"
 
-#: .\post\templates\profile\profile_detail.html:12
+#: .\post\templates\post\create_post.html:9
+msgid "Create post"
+msgstr "Tạo bài đăng"
+
+#: .\post\templates\post\create_post.html:19
+msgid "Create"
+msgstr "Đăng"
+
+#: .\post\templates\profile\profile_detail.html:11
 msgid "User-Profile-Image"
 msgstr "Ảnh đại diện"
 
-#: .\post\templates\profile\profile_detail.html:22
+#: .\post\templates\profile\profile_detail.html:21
 #, fuzzy
 #| msgid "Enter date of birth"
 msgid "Date of Birth"
 msgstr "Nhập ngày sinh"
 
-#: .\post\templates\profile\profile_detail.html:26
+#: .\post\templates\profile\profile_detail.html:25
 msgid "Address"
 msgstr "Địa chỉ"
 
-#: .\post\templates\profile\profile_detail.html:32
+#: .\post\templates\profile\profile_detail.html:31
 msgid "Joining Date"
 msgstr "Ngày tham gia"
 
-#: .\post\templates\profile\profile_detail.html:36
+#: .\post\templates\profile\profile_detail.html:35
 msgid "Contacts"
 msgstr "Thông tin liên hệ"
 
-#: .\post\templates\profile\profile_detail.html:39
+#: .\post\templates\profile\profile_detail.html:38
 msgid "Email"
 msgstr "Email"
 
-#: .\post\templates\profile\profile_detail.html:43
+#: .\post\templates\profile\profile_detail.html:42
 msgid "Phone"
 msgstr "Số điện thoại"
 
@@ -198,9 +206,13 @@ msgstr "Đăng nhập"
 msgid "Lost password?"
 msgstr "Quên mật khẩu?"
 
-#: .\post\views.py:9
+#: .\post\views.py:11
 msgid "Your username and password didn't match. Please try again."
 msgstr "Tên đăng nhập và mật khẩu không khớp. Vui lòng thử lại."
+
+#: .\post\views.py:49
+msgid "ERROR: New post creation failed"
+msgstr "Lỗi: Tạo bài viết mới không thành công"
 
 #~ msgid "Welcome to Traveling Experience Page"
 #~ msgstr "Chào mừng bạn đến với trang web chia sẻ kinh nghiệm du lịch"

@@ -25,7 +25,7 @@ class Post(models.Model):
     title = models.CharField(max_length=200, help_text=_('Title for this post'))
     content = models.TextField(help_text=_('Enter content of the book'))
     image = models.ImageField(upload_to ='uploads/')
-    rate_average = models.DecimalField(decimal_places=2, max_digits=3, help_text=_('Rate of this post'))
+    rate_average = models.DecimalField(decimal_places=2, max_digits=3, help_text=_('Rate of this post'), default=0.0)
     status = models.IntegerField(choices=constants.STATUS_CHOICES, default=1 , help_text=_('Status of this post (Private or Public)'))
 
     def __str__(self):
