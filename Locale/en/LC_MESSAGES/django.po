@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-22 15:21+0700\n"
+"POT-Creation-Date: 2022-03-23 09:37+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,6 +165,22 @@ msgstr "Create post"
 msgid "Create"
 msgstr "Create"
 
+#: .\post\templates\post\post_list.html:4
+#, fuzzy
+#| msgid "Posts"
+msgid "Post List"
+msgstr "Posts"
+
+#: .\post\templates\post\post_list.html:13
+#, fuzzy
+#| msgid "Authors"
+msgid "Author:"
+msgstr "Authors"
+
+#: .\post\templates\post\post_list.html:16
+msgid "Readmore>>>"
+msgstr "Đọc thêm"
+
 #: .\post\templates\profile\profile_detail.html:11
 msgid "User-Profile-Image"
 msgstr "User-Profile-Image"
@@ -207,11 +223,11 @@ msgstr "Sign In"
 msgid "Lost password?"
 msgstr "Lost password?"
 
-#: .\post\views.py:11
+#: .\post\views.py:12
 msgid "Your username and password didn't match. Please try again."
 msgstr "Your username and password didn't match. Please try again."
 
-#: .\post\views.py:49
+#: .\post\views.py:50
 msgid "ERROR: New post creation failed"
 msgstr "ERROR: New post creation failed"
 
