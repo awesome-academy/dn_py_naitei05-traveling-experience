@@ -57,3 +57,6 @@ def post_create(request):
 
 class PostListView(generic.ListView):
     model = Post
+
+class PostDetailView(generic.DetailView):
+    model = Post
