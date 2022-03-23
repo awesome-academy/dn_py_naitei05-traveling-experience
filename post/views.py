@@ -1,3 +1,4 @@
+from django.views import generic
 from django.shortcuts import render
 from django.contrib import messages
 from django.utils.translation import ugettext as _
@@ -53,3 +54,6 @@ def post_create(request):
                 })
 
     return render(request, 'post/create_post.html', context={"form": form})
+
+class PostListView(generic.ListView):
+    model = Post

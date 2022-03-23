@@ -1,0 +1,26 @@
+{% extends "base_generic.html" %}
+{% block content %}
+{% load i18n %}
+    <h1 class="margin-title-left">{% translate "Post List" %}</h1>
+    <div class="row-post">
+        {% if post_list %}
+            {% for post in post_list %}
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 post-margin"> 
+                            <div>
+                                <h3>{{ post.title }}</h3>
+                                <h6>{% translate "Author:" %} {{ post.user }}</h6>
+                                <p class="list-display">{{ post.content }}</p>
+                            </div>
+                            <a href="" >{% translate "Readmore>>>" %}</a>
+                        </div>
+                        <div class="col-lg-5 offset-lg-define">
+                            <img src='{{ post.image.url }}' class="mt-2"  width="70%" height="60%">
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endblock %}

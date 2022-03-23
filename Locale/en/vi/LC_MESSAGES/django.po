@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-22 15:21+0700\n"
+"POT-Creation-Date: 2022-03-23 09:37+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,6 +164,22 @@ msgstr "Tạo bài đăng"
 msgid "Create"
 msgstr "Đăng"
 
+#: .\post\templates\post\post_list.html:4
+#, fuzzy
+#| msgid "Posts"
+msgid "Post List"
+msgstr "Bài đăng"
+
+#: .\post\templates\post\post_list.html:13
+#, fuzzy
+#| msgid "Authors"
+msgid "Author:"
+msgstr "Tác giả"
+
+#: .\post\templates\post\post_list.html:16
+msgid "Readmore>>>"
+msgstr "Readmore>>>"
+
 #: .\post\templates\profile\profile_detail.html:11
 msgid "User-Profile-Image"
 msgstr "Ảnh đại diện"
@@ -206,11 +222,11 @@ msgstr "Đăng nhập"
 msgid "Lost password?"
 msgstr "Quên mật khẩu?"
 
-#: .\post\views.py:11
+#: .\post\views.py:12
 msgid "Your username and password didn't match. Please try again."
 msgstr "Tên đăng nhập và mật khẩu không khớp. Vui lòng thử lại."
 
-#: .\post\views.py:49
+#: .\post\views.py:50
 msgid "ERROR: New post creation failed"
 msgstr "Lỗi: Tạo bài viết mới không thành công"
 
