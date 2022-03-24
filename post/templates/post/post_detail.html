@@ -1,0 +1,9 @@
+{% extends "base_generic.html" %}
+{% block content %}
+{% load i18n %}
+    <h1 class="text-center">{{ post.title }}</h1>
+    <div>
+        <img src="{{ post.image.url }}" class="mt-4 center" width="60%", height="60%">
+    </div>
+    <p class="text-content">{{ post.content }}</p>
+{% endblock %}

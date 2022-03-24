@@ -8,4 +8,5 @@ urlpatterns = [
     path('users', views.user_management, name='user-management'),
     path('create-post', views.post_create, name='create-post'),
     path('list-posts', views.PostListView.as_view(), name='list-posts'),
+    path('post-detail/<int:pk>', views.PostDetailView.as_view(), name='post-detail'),
 ]

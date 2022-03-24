@@ -31,6 +31,9 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return reverse('post-detail', args=[str(self.id)])
+
 class Comment(models.Model):
     user = models.ForeignKey('Profile', on_delete=models.PROTECT)
     post = models.ForeignKey('Post', on_delete=models.PROTECT)
