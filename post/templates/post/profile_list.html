@@ -1,0 +1,25 @@
+{% extends "base_generic.html" %}
+{% block content %}
+{% load i18n %}
+    <h1 class="text-center">{% translate "Author List" %}</h1>
+    <div class="row">
+        {% if profile_list %}
+            {% for profile in profile_list %}
+                <div class="col-sm-4">
+                    <div id="card" class="mb-4">
+                        <div class="card-writer rounded-writer">
+                            <a href="">
+                                <img class="Avatar" src="{{ profile.avatar.url }}" />
+                            </a>
+                        </div>
+                        <h5 class="card-title text-center">{{ profile.first_name }} {{ profile.last_name }}</h5>
+                        <p class="card-text text-center">{{ profile.birthday }} <br></p>
+                        <a href="">
+                            <input type="submit" class="btn btn-primary button-align" value="Visit">
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endblock %}
