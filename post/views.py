@@ -60,3 +60,6 @@ class PostListView(generic.ListView):
 
 class PostDetailView(generic.DetailView):
     model = Post
+
+class AuthorListView(generic.ListView):
+    model = Profile

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 09:37+0700\n"
+"POT-Creation-Date: 2022-03-24 10:17+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,11 +45,11 @@ msgstr "Đánh giá bài đăng"
 msgid "Status of this post (Private or Public)"
 msgstr "Trạng thái bài đăng (Riêng tư/ Công khai)"
 
-#: .\post\models.py:45
+#: .\post\models.py:48
 msgid "Point of this post"
 msgstr "Điểm cho bài đăng"
 
-#: .\post\models.py:55
+#: .\post\models.py:58
 msgid "Enter content for this tag"
 msgstr "Nhập nội dung cho tag"
 
@@ -179,6 +179,12 @@ msgstr "Tác giả"
 #: .\post\templates\post\post_list.html:16
 msgid "Readmore>>>"
 msgstr "Readmore>>>"
+
+#: .\post\templates\post\profile_list.html:4
+#, fuzzy
+#| msgid "Authors"
+msgid "Author List"
+msgstr "Tác giả"
 
 #: .\post\templates\profile\profile_detail.html:11
 msgid "User-Profile-Image"

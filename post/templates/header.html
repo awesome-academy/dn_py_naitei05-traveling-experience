@@ -10,10 +10,10 @@
                                 <a href="/" class="text-light ms-4 navbar-text">{% translate "Home" %}</a>
                             </li>
                             <li class="nav-item">
-                                <a href="{% url 'list-posts' %}" class="text-light ms-4 navbar-text">{% translate "Most viewed posts" %}</a>
+                                <a href="{% url 'post-list' %}" class="text-light ms-4 navbar-text">{% translate "Most viewed posts" %}</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/" class="text-light ms-4 navbar-text">{% translate "Authors" %}</a>
+                                <a href="{% url 'profile-list' %}" class="text-light ms-4 navbar-text">{% translate "Authors" %}</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="/" class="text-light ms-4 navbar-text">{% translate "Community" %}</a>
